@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.header-left {
+    flex: 1;
+}
+
+.header-right {
+    flex: 1;
+    text-align: right;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Divider */
+.divider {
+    height: 5px;
+    background-color: #fcbf49;
+    margin: 15px 0;
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 0 0 10px;
+    font-style: italic;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Job Styles */
+.job {
+    margin-bottom: 10px;
+}
+
+/* Skills Layout */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-list div {
+    flex: 1 1 calc(25% - 10px);
+    margin-bottom: 10px;
+}
+
+/* Text Styling */
+p {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
